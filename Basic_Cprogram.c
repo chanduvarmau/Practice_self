@@ -1,3 +1,6 @@
+//HELLOWORLD
+//FIBONACCI
+//FIBONACCI_RECURSIVE
 
 #ifdef HELLOWORLD
 #include <stdio.h>
@@ -32,6 +35,7 @@ int main()
 }
 #endif
 
+#ifdef FIBONACCI_RECURSIVE
 #include <stdio.h>
 void fibonacci(int n){
     static int n1 = 0, n2 = 1, n3 = 0;
@@ -55,3 +59,4 @@ int main(){
 
     return 0;
 }
+#endif
